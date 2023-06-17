@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* Sessão do cabeçalho / Navbar */
@@ -63,7 +64,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  height: 80vh;
 }
 
 .main-text {
@@ -110,12 +111,39 @@ header {
   width: 300px;
   height: auto;
 }
-
+.imagens {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+#porque h1 {
+  font-size: 3rem;
+  color: #2f2533;
+}
+.imagens img {
+  width: 200px;
+}
+#porque,
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem 0;
+}
+figure {
+  width: 450px;
+}
+figcaption {
+  font-size: 1.5rem;
+  color: #6f5580;
+}
 /* Seção de planos */
 
-.planos {
+#planos {
   background-color: #8487f6;
-  padding: 5rem 0;
+  padding: 1rem 0;
 }
 .tabela-planos {
   margin-bottom: 5rem;
