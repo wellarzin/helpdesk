@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Sessão do cabeçalho / Navbar */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+
+.logo {
+  margin-right: 200px;
+  height: auto;
+  width: 200px;
+  margin-left: 30px;
+}
+
+.nav-buttons {
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.1s ease-in-out;
+}
+
+.nav-buttons:hover {
+  border-bottom: 3px solid #6e3586;
+}
+
+.log-buttons {
+  background-color: transparent;
+  border: 0;
+  font-size: 20px;
+  transition: 0.3s ease-in-out;
+  margin-right: 30px;
+}
+
+.log-buttons:hover {
+  transform: scale(1.1);
+}
+
+#cadastro {
+  background-color: #5c2e6d;
+  color: white;
+  border-radius: 50px;
+  padding: 15px;
+  margin-left: 150px;
+}
+
+#login {
+  border: 3px solid #5c2e6d;
+  border-radius: 50px;
+  padding: 15px 30px;
+}
+
+/* Sessão da Main-Section */
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.main-text {
+  color: #2f2533;
+  width: 75%;
+  margin-top: 125px;
+  height: auto;
+  margin-left: 50px;
+}
+
+.helpdesk {
+  color: #6f5580;
+}
+
+.main-title {
+  font-size: 48px;
+}
+
+.main-button {
+  background-color: transparent;
+  border: 1px solid #9455be;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 20px;
+  margin-left: 200px;
+  margin-top: 75px;
+  transition: 0.2s ease-in-out;
+}
+
+.main-button:hover {
+  transform: scale(1.1);
+  background-color: #9455be;
+  color: white;
+}
+
+.main-img {
+  height: auto;
+  margin-right: 120px;
+  margin-left: 50px;
+}
+
+#main-image {
+  width: 300px;
+  height: auto;
+}
+.imagens {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+#porque h1 {
+  font-size: 3rem;
+  color: #2f2533;
+}
+.imagens img {
+  width: 200px;
+}
+#porque,
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem 0;
+}
+figure {
+  width: 450px;
+}
+figcaption {
+  font-size: 1.5rem;
+  color: #6f5580;
+}
+/* Seção de planos */
+
+#planos {
+  background-color: #8487f6;
+  padding: 1rem 0;
+}
+.tabela-planos {
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+}
+.planos-texto {
+  text-align: center;
+  margin: 3rem 0;
+}
+.planos-texto h1 {
+  font-size: 3rem;
+  color: #2f2533;
+}
+.planos-texto p {
+  font-size: 1.5rem;
+  color: #6f5580;
+}
+table,
+th,
+td {
+  padding: 1rem;
+  background-color: white;
+  text-align: center;
+  border-collapse: collapse;
+  border-radius: 3rem;
+}
+td {
+  width: 100px;
+  border: 1px solid #8487f6;
+}
+tr td:first-child {
+  text-align: left;
+}
+th {
+  font-size: 1.5rem;
+}
+table {
+  width: 90%;
+}
